@@ -1,35 +1,47 @@
-# codealpha_tasks
-Repository containing all the tasks and projects completed during my Web Development internship at CodeAlpha. Features clean, responsive, and functional application designs.
-# CodeAlpha Internship Tasks 🚀
+# CodeAlpha Frontend Web Development Internship Tasks 🚀
 
-Welcome to my official repository for the CodeAlpha Internship program! This repository contains the source code, documentation, and implementation details for all assigned tasks completed during my internship batch.
+Welcome to my official repository for the CodeAlpha Internship program! This repository showcases the frontend projects I designed, built, and deployed during my internship batch, focusing on responsive design, clean code, and interactive user experiences.
 
-## 📌 Project Directory & Overview
+## 📌 Projects Overview
 
-### 📁 Task 1: [Calculator App]
-* **Description:** [ A fully functional web calculator supporting mathematical operations.]
-* **Tech Used:** HTML, CSS, JavaScript, Git
-* **Status:** Completed ✅
+### 🔢 1. Calculator
+* **Description:** A fully functional, responsive digital calculator capable of executing standard arithmetic operations with clean UI styling and instant user feedback.
+* **Key Features:** Dark/Light mode toggle, immediate backspace utility, error handling for invalid operations, and smooth button press transitions.
+* **Tech Stack:** HTML5, CSS3, JavaScript (DOM manipulation)
 
-### 📁 Task 2: [Image Gallery]
-* **Description:** [ An interactive image gallery using CSS Grid and dynamic modal views.]
-* **Tech Used:** HTML5, JavaScript CSS
-* **Status:** Completed ✅
+### 💼 2. Personal Portfolio
+* **Description:** A modern, professional portfolio website designed to showcase my skills, projects, and contact details effectively to prospective recruiters.
+* **Key Features:** Fluid grid layouts, interactive navigation menu, operational contact form, embedded resume viewing options, and complete mobile responsiveness.
+* **Tech Stack:** HTML5, Modern CSS (Flexbox & Grid), JavaScript
 
-* ### 📁 Task 3: [Portfolio]
-* **Description:** [ This is portfolio task.]
-* **Tech Used:** HTML5, JavaScript CSS
-* **Status:** Completed ✅
+### 🖼️ 3. Interactive Image Gallery
+* **Description:** A sleek, user-friendly image gallery layout built to organize and display high-quality visual content cleanly across all screen dimensions.
+* **Key Features:** Dynamic grid adjustments, interactive modal lightboxes for full-screen image inspection, category filters, and smooth hover effects.
+* **Tech Stack:** HTML5, CSS Variables, JavaScript 
 
 ---
 
-## 🛠️ Technologies Used
-* **Languages:** JavaScript, HTML5, CSS3, Python
+## 🛠️ Global Technologies Used
+* **Markup & Structure:** HTML5
+* **Styling & Layout:** CSS3 (Flexbox, CSS Grid, Media Queries)
+* **Interactivity:** Vanilla JavaScript (ES6+)
 * **Version Control:** Git & GitHub
 
-## 🚀 How to Run the Projects Locally
-1. Clone the repository:
+## 🚀 How to Run These Projects Locally
+
+1. **Clone the repository to your system:**
    ```bash
+   git clone https://github.com
+   ```
+2. **Navigate into the project directory:**
+   ```bash
+   cd YOUR_REPOSITORY_NAME
+   ```
+3. **Open any project:**
+   * Simply locate and open the `index.html` file within the respective `calculator`, `portfolio`, or `gallery` folders directly inside your preferred web browser.
+
+---
+*Special thanks to the **CodeAlpha** team for this incredible learning opportunity!*
    git clone https://github.com
    ```
 2. Navigate to the task directory:
