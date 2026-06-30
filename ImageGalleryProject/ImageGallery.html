@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeAlpha | Immersive Art Gallery</title>
+  <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+
+  <header class="gallery-header">
+    <h1>Creative Showcase</h1>
+    <!-- Category Control Filters -->
+    <div class="filter-controls" id="filter-controls">
+      <button class="filter-btn active" data-filter="all">All Works</button>
+      <button class="filter-btn" data-filter="nature">Nature</button>
+      <button class="filter-btn" data-filter="architecture">Architecture</button>
+      <button class="filter-btn" data-filter="urban">Urban Life</button>
+    </div>
+  </header>
+
+  <main class="gallery-wrapper">
+    <!-- Grid Pipeline Container -->
+    <div class="gallery-grid" id="gallery-grid">
+      
+      <div class="gallery-item" data-category="nature" tabIndex="0">
+        <img src="https://images.stockcake.com/public/a/4/3/a43eec29-3b74-4507-bd38-35ef7bf423c5_medium/serene-forest-sunrise-stockcake.jpg" alt="Serene forest mountain view lake sunrise" loading="lazy">
+        <div class="item-overlay">
+          <h3>Alpine Solitude</h3>
+          <p>Nature Collection</p>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="architecture" tabIndex="0">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXVFd66Vn3zgoqjZQaEBQ5eFY4e9O_NwkTDmdk6OIBi7RKMIrRB_wCbXoK&s=10" alt="Minimalist architecture white curved wall structure" loading="lazy">
+        <div class="item-overlay">
+          <h3>Abstract Forms</h3>
+          <p>Architecture Collection</p>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="urban" tabIndex="0">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj_O5S5dN5ujjyj4iROdgcCrwWyBXxFtGJw-75johyTizgkCebT40ae3lf&s=10" alt="High speed city street night illumination neon lights" loading="lazy">
+        <div class="item-overlay">
+          <h3>Metropolis Sync</h3>
+          <p>Urban Life Collection</p>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="nature" tabIndex="0">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqvxct6y8PM5UoklyDGAVURjuc09kwMLP4kw9u4cCNwUIdNZvumznEJwu7&s=10" alt="Close up shot of fresh morning dew drops on forest leaves" loading="lazy">
+        <div class="item-overlay">
+          <h3>Forest Whispers</h3>
+          <p>Nature Collection</p>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="architecture" tabIndex="0">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsBYti3DtbA9liAI5zWtCvd4YOvGQFcZmU-DNmDA6-CgvfsU2M3WXQnlM&s=10" alt="Symmetric structural perspective of modern steel building dome grid" loading="lazy">
+        <div class="item-overlay">
+          <h3>Geometric Order</h3>
+          <p>Architecture Collection</p>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="urban" tabIndex="0">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkCimxyPCFsG2Uov8kBp4tJoPwTDm9hb1w85TLXoNX3w&s=10" alt="Pedestrians walking down rainy historical alleyway streets" loading="lazy">
+        <div class="item-overlay">
+          <h3>Rainy Memories</h3>
+          <p>Urban Life Collection</p>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Production Lightbox Viewport Layer -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-hidden="true">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close Lightbox">✕</button>
+    <button class="lightbox-nav nav-prev" id="lightbox-prev" aria-label="Previous Image">❮</button>
+    <button class="lightbox-nav nav-next" id="lightbox-next" aria-label="Next Image">❯</button>
+    <div class="lightbox-content">
+      <img id="lightbox-img" src="" alt="">
+      <div id="lightbox-caption" class="lightbox-caption"></div>
+    </div>
+  </div>
+
+  <script src="gallery.js"></script>
+</body>
+</html>
